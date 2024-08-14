@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('pexels-johnpet-2115257.jpg');
+    background-color: #ccc;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -26,7 +26,7 @@ body {
     width: 100%;
     max-width: 420px;
     margin: auto;
-    background-color: rgba(14, 12, 12, 0.5);
+    background-color: #ccc;
     border-radius: 15px;
     overflow: hidden;
     opacity: 0;
@@ -48,7 +48,7 @@ body.show-chatbot .chatbot {
     position: relative;
     text-align: center;
     color: #fff;
-    background:  #312264;
+    background: #312264;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -120,13 +120,13 @@ body.show-chatbot .chatbot {
     border-radius: 10px 10px 0 10px;
     max-width: 75%;
     font-size: 0.95rem;
-    color: #fff;
-    background: #724ae8;
+    color: #181816;
+    background: #836fe7;
 }
 
 .chatbox .incoming p {
     border-radius: 10px 10px 10px 0;
-    color: #000;
+    color: #8061dd;
     background: #f2f2f2;
 }
 
@@ -201,6 +201,7 @@ body.show-chatbot .chatbot {
         height: calc(100% - 150px);
         padding: 25px 15px 100px;
         overflow-y: auto;
+        background: #f8f5f5;
     }
     .chatbot .chat-input {
         padding: 10px 15px;
